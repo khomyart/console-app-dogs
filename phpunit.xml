@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/autoload.php"
+        colors="true"
+        stopOnFailure="false">
+    <testsuites>
+        <testsuite name="DogName">
+            <directory>tests</directory>
+        </testsuite>
+        <testsuite name="AvailableDogs">
+            <directory>tests</directory>
+        </testsuite>
+        <testsuite name="AvailableActions">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
